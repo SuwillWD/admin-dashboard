@@ -116,6 +116,10 @@ img {
     cursor: pointer;
 }
 
+.search-bar input:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 .search-bar i,
 .user-links i {
     font-size: 30px;
@@ -283,4 +287,17 @@ div .announcement {
 
 .trending img {
     grid-row: 1 / 3;
+}
+
+div .project,
+.announcements > div,
+.trendings > div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.announcement h2:hover,
+.trending h3:hover {
+    color: rgb(60, 58, 58);
+    cursor: pointer;
 }
