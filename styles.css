@@ -80,18 +80,89 @@ i {
 header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    border: 2px solid black;
     display: grid;
     grid-template-rows: 1fr 1fr;
     height: 20vh;
+    box-shadow: 0 8px 4px -4px rgba(0, 0, 0, 0.2);
 }
 
 img {
-    width: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .top-header,
 .bottom-header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    padding: 15px;
+}
+
+.search-bar {
+    display: grid;
+    grid-template-columns: 0.3fr 5fr;
+    justify-content: start;
+    padding-top: 13px;
+}
+
+.search-bar input {
+    height: 30px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar i,
+.user-links i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.user-links {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.user img {
+    width: 70px;
+    height: 70px;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.quick-links {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.quick-links > div {
+    background-color: rgb(94, 94, 240);
+    width: 30%;
+    height: 50%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.quick-links > div:hover {
+    color: rgb(226, 224, 224);
 }
