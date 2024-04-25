@@ -10,7 +10,7 @@ Welcome to the Admin Dashboard project! This dashboard was created to showcase m
 
 ## Live Preview
 
-You can visit the site [here]().
+You can visit the site [here](https://suwillwd.github.io/admin-dashboard/).
 
 ## Suggestion & Tips
 
